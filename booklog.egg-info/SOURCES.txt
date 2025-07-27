@@ -1,0 +1,9 @@
+setup.py
+booklog/__init__.py
+booklog/cli.py
+booklog.egg-info/PKG-INFO
+booklog.egg-info/SOURCES.txt
+booklog.egg-info/dependency_links.txt
+booklog.egg-info/entry_points.txt
+booklog.egg-info/requires.txt
+booklog.egg-info/top_level.txt
