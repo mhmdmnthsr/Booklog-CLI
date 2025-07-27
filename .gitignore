@@ -3,37 +3,26 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution / packaging
-*.egg-info/
-dist/
-build/
-
-# Virtual environment
+# Virtual environments
 .venv/
 env/
 venv/
 
-# PyInstaller
-*.spec
+# Editor settings
+.vscode/
+.idea/
+*.swp
 
-# Unit test / coverage reports
-.coverage
-htmlcov/
-.tox/
-nosetests.xml
-coverage.xml
-*.cover
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Logs and local state
+*.log
+*.sqlite3
 
-# Mac & Linux system files
+# OS junk
 .DS_Store
 Thumbs.db
 
-# VS Code settings (optional)
-.vscode/
-
-# Local data files (optional, if generated or temporary)
-*.log
-*.sqlite3
