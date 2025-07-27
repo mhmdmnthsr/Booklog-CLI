@@ -58,13 +58,13 @@ booklog list
 ### ✏️ Update a Book
 
 ```bash
-booklog update --id 1 --status "completed"
+booklog update 1 --status "completed"
 ```
 
 ### ❌ Delete a Book
 
 ```bash
-booklog delete --id 1
+booklog delete 1
 ```
 
 ### 📤 Export to CSV
@@ -85,7 +85,6 @@ Booklog-CLI/
 ├── books.json         # Local data store (auto-created)
 ├── README.md
 ├── .gitignore
-├── pyproject.toml
 └── setup.py
 ```
 
